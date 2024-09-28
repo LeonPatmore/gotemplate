@@ -4,7 +4,7 @@ jobs:
   build:
     working_directory: ~/helm.sh/helm
     docker:
-      - image: cimg/go:1.18
+      - image: cimg/go:1.23
     environment:
       GOCACHE: "/tmp/go/cache"
     steps:
